@@ -21,7 +21,7 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: azure;
-    height: 100px;
+    height: 600px;
 }
 img{
     background-color: antiquewhite;
@@ -35,13 +35,13 @@ img:hover{
 }
 #about{
     background-color: beige;
-    height:100px;
+    height:700px;
 }
 #skills{
     display: flex;
     justify-content: space-around;
     background-color: rgb(199, 164, 231);
-    height: 100px;
+    height: 700px;
     align-content:space-between;
     flex-wrap: wrap;
 }
