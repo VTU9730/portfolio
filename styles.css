@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    margin: 0 30px;
+    margin: 7px 50px;
 }
 #navbar{
     background-color: rgb(168, 238, 238);
@@ -23,14 +23,14 @@ body{
     background-color: azure;
     height: 600px;
 }
-img{
+#home>img{
     background-color: antiquewhite;
     padding: 15px;
     border-radius: 20px 90px;
     position:absolute;
     right: 40px;
 }
-img:hover{
+#home>img:hover{
     background-color: rgb(90, 87, 233);
 }
 #about{
@@ -57,4 +57,21 @@ article:hover{
 }
 article>p:hover{
     color:rgb(241, 82, 8)
+}
+#certificates{
+    display: flex;
+    margin: 0 20%;
+}
+#certificates>button{
+    margin: 20% 0;
+}
+#certificates>img{
+    width:60%;
+    margin:10px 90px;
+}
+#certificates>img:hover{
+    width:60%;
+    padding:2.5%;
+    background-color: rgb(209, 173, 243);
+    border-radius: 20px;
 }
