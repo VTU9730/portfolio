@@ -1,27 +1,42 @@
 *{
     padding: 0;
     margin: 0;
+    
 }
 body{
     margin: 7px 50px;
+    font-family: 'Times New Roman', Times, serif;
 }
+/*navbar section */
 #navbar{
     background-color: rgb(168, 238, 238);
     height:30px;
-    
+    padding: 5px;
 }
 #navbar>a{
     margin: 30px 60px;
     text-decoration: none;
     color: rgb(224, 149, 36);
     font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
+    
+    font-weight: 100;
+}
+/* home section */
+#intro{
+    position: absolute;
+    left:200px;
+    top:100px;
+    font: larger;
+    font-size: 30px;
+    line-height: 40px;
+    color: rgb(230, 78, 18);
 }
 #home{
-    display: flex;
-    justify-content: space-around;
-    background-color: azure;
-    height: 600px;
+    background-image: url(./images/home.jpg);
+    background-size: 1500px 500px;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+     height: 500px;
 }
 #home>img{
     background-color: antiquewhite;
@@ -34,33 +49,23 @@ body{
     background-color: rgb(90, 87, 233);
 }
 #about{
-    background-color: beige;
-    height:700px;
-}
-#skills{
-    display: flex;
+    display:flex;
     justify-content: space-around;
-    background-color: rgb(199, 164, 231);
-    height: 700px;
-    align-content:space-between;
-    flex-wrap: wrap;
-}
-article{
-    background-color: rgb(32, 168, 39);
-    height: fit-content;
-    padding: 10px;
-    border-radius: 10px;
-}
-article:hover{
-    background-color: azure;
+    background-color: beige;
     padding: 20px;
+    color:rgb(230, 78, 18);
+    font-size: larger;
+    line-height: 30px;
 }
-article>p:hover{
-    color:rgb(241, 82, 8)
+#about>img{
+    width:300px;
+    height: 300px;
 }
+/* certificate section */
 #certificates{
     display: flex;
     margin: 0 20%;
+    padding: 30px;
 }
 #certificates>button{
     margin: 20% 0;
@@ -72,6 +77,43 @@ article>p:hover{
 #certificates>img:hover{
     width:60%;
     padding:2.5%;
-    background-color: rgb(209, 173, 243);
-    border-radius: 20px;
+    background-color: rgb(187, 222, 238);
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+/* skills section */
+#skills{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(215, 195, 233);
+    height: 200px;
+    align-content:space-between;
+    flex-wrap: wrap;
+}
+article{
+    background-color: rgb(159, 248, 85);
+    height: fit-content;
+    padding: 20px;
+    margin: 50px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+article:hover{
+    background-color: azure;
+    padding: 20px;
+}
+article>p:hover{
+    color:rgb(241, 82, 8)
+}
+article>img{
+    width:40px;
+}
+/* Projects section */
+#projects{
+    background-color: beige;
+    height:300px;
+}
+#feedback{
+    background-color: bisque;
+    height: 200px;
 }
