@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=NTR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=NTR&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+
+.nav-ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-ul li {
+  padding: 0 50px;
+  white-space: nowrap;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 1.5rem;
+  font-family: "NTR", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-logo {
+  width: 50px;
+  height: 50px;
+  border: solid 1px rgb(209, 192, 192);
+  background-color: aliceblue;
+}
+
+/* Home */
+
+.home {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 50px;
+  background-color: rgb(243, 243, 243);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 3rem;
+}
+
+.home-mypic img {
+  width: 300px;
+  height: 300px;
+}
+
+.home-button {
+  border: solid 1px grey;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  margin-right:1rem;
+}
+
+/* Introduction */
+
+.introduction{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+    background-color: rgb(243, 243, 243);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 3rem;
+}
+
+.introduction-article ul{
+    display: flex;
+    list-style: none;
+}
+
+.introduction-article ul li{
+    padding-right:10px;
+}
