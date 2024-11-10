@@ -47,6 +47,7 @@
 .home {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding: 140px 50px;
   background-color: rgb(243, 243, 243);
   font-family: "Roboto", sans-serif;
@@ -100,6 +101,7 @@
 .introduction{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 10px 50px;
     background-color: rgb(243, 243, 243);
     font-family: "Roboto", sans-serif;
@@ -158,6 +160,7 @@ span{
 .qualification-section{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   text-align:left;
   margin-top: 30px;
   line-height: 2rem;

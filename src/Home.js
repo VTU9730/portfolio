@@ -7,10 +7,9 @@ function Home() {
         <h1>Veeraprathap Reddy</h1>
         <h3>React Developer</h3>
         <p>
-          Passionate React developer with 3 years of experience building dynamic
-          and responsive web applications.
+        Bringing interactive web experiences to life with React and modern web technologies.
         </p>
-        <button className="home-button home-button-cv">Download CV</button>
+        <button className="home-button home-button-cv"><a href="/Pratap_Frontend.pdf" download="Pratap_Frontend.pdf">Download CV</a></button>
         <button className="home-button home-button-me">Contact Me</button>
       </section>
       <section className="home-mypic">
