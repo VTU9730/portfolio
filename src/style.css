@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* Navbar */
@@ -28,6 +29,10 @@
   font-family: "NTR", serif;
   font-weight: 400;
   font-style: normal;
+  position:sticky;
+  top:0;
+  background-color: rgb(243, 243, 243);
+  z-index: 10;
 }
 
 .nav-logo {
@@ -42,7 +47,7 @@
 .home {
   display: flex;
   justify-content: space-around;
-  padding: 0 50px;
+  padding: 140px 50px;
   background-color: rgb(243, 243, 243);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -50,16 +55,44 @@
   line-height: 3rem;
 }
 
+.home p{
+  width:40ch;
+}
+
+
+
 .home-mypic img {
   width: 300px;
   height: 300px;
+  object-fit: cover;
+  display: block;
 }
 
 .home-button {
   border: solid 1px grey;
-  padding: 0.3rem 0.8rem;
+  padding: 0.5rem 1rem;
   border-radius: 15px;
   margin-right:1rem;
+}
+
+.home-button-cv{
+  background-color: grey;
+  color: white;
+}
+
+.home-button-me{
+  background-color: white;
+  color: grey;
+}
+
+.home-button-cv:hover{
+  background-color: white;
+  color: grey;
+}
+
+.home-button-me:hover{
+  background-color: grey;
+  color: white;
 }
 
 /* Introduction */
@@ -67,12 +100,25 @@
 .introduction{
     display: flex;
     justify-content: space-around;
-    padding: 0 50px;
+    padding: 10px 50px;
     background-color: rgb(243, 243, 243);
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
     line-height: 3rem;
+    align-content: center;
+    align-items: center;
+}
+
+.introduction img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.introduction p{
+  width:40ch;
 }
 
 .introduction-article ul{
@@ -82,4 +128,80 @@
 
 .introduction-article ul li{
     padding-right:10px;
+}
+
+/* Qualification */
+
+.qualification{
+  text-align: center;
+  padding: 100px 0;
+  background-color: rgb(243, 243, 243);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 2rem;
+}
+
+.qualification-section{
+  display: flex;
+  justify-content: space-around;
+  text-align:left;
+  margin-top: 30px;
+}
+
+.qualification-article{
+  margin: 15px 0;
+}
+
+.qualification-div{
+  margin: 20px 0;
+  border-left: solid 3px grey;
+  padding: 0 5px;
+}
+
+/* Skills */
+
+.skills{
+  text-align: center;
+  padding: 100px 0;
+  background-color: rgb(243, 243, 243);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 3rem;
+}
+
+.skills-div{
+  display: flex;
+  justify-content: space-around;
+  margin-top:90px ;
+  flex-wrap: wrap;
+  gap:30px;
+}
+
+.skills-section{
+  border: solid 1px grey;
+  width:200px;
+  padding:30px 50px 50px 10px;
+  border-top-right-radius: 40px;
+  position: relative;
+  text-align: left;
+  line-height: 3rem;
+  line-height: 1.5rem;
+}
+
+.skills-section img{
+  width:40px;
+  height:40px;
+  position: absolute;
+  left:50px;
+  top:-20px;
+  border: solid 1px grey;
+  object-fit: cover;
+}
+
+/* General */
+
+.h3{
+  color: rgb(20, 216, 151);
 }
