@@ -76,19 +76,16 @@
   margin-right:1rem;
 }
 
-.home-button-cv{
-  background-color: grey;
-  color: white;
-}
-
-.home-button-me{
-  background-color: white;
-  color: grey;
-}
-
 .home-button-cv:hover{
-  background-color: white;
-  color: grey;
+  background-color: grey;
+}
+
+.home-button-cv a{
+  color:grey;
+}
+
+.home-button-cv a:hover{
+  color:white;
 }
 
 .home-button-me:hover{
@@ -123,17 +120,13 @@
   vertical-align: middle;
   padding-right: 10px;                                    
 }
-span{
-  
-}
 
 .introduction p{
   width:40ch;
 }
 
-.introduction-article ul{
-    display: flex;
-    list-style: none;
+.introduction-article{
+  margin-left: -23px;
 }
 
 .introduction-article ul li{
@@ -185,7 +178,7 @@ span{
 
 .skills{
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 100px;
   background-color: rgb(243, 243, 243);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -239,18 +232,4 @@ span{
   .nav{
     display: none;
   }
-}
-
-p:hover{
-  color:red;
-}
-
-h1:hover{
-  color:red;
-}
-h2:hover{
-  color:red;
-}
-h3:hover{
-  color:red;
 }
