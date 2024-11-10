@@ -10,7 +10,7 @@ function Home() {
           Passionate React developer with 3 years of experience building dynamic
           and responsive web applications.
         </p>
-        <button className="home-button home-button-cv">Download cv</button>
+        <button className="home-button home-button-cv">Download CV</button>
         <button className="home-button home-button-me">Contact Me</button>
       </section>
       <section className="home-mypic">

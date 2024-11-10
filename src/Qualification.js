@@ -7,7 +7,7 @@ function Qualification(){
             </section>
             <section className="qualification-section">
                 <article className="qualification-article">
-                    <h3>Education</h3>
+                    <h3><span class="material-icons">school</span>Education</h3>
                     <div className="qualification-div">
                         <h4>Bachelor Technology</h4>
                         <p>Mechanical</p>
@@ -25,7 +25,7 @@ function Qualification(){
                     </div>
                 </article>
                 <article className="qualification-article">
-                    <h3>Experience</h3>
+                    <h3><span class="material-icons">work</span>Experience</h3>
                     <div className="qualification-div">
                         <h4>Infosys</h4>
                         <p>Senior system engineer</p>

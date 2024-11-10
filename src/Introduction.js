@@ -1,4 +1,5 @@
-import mypic from './images/mypic.jpeg'
+import mypic from "./images/mypic.jpeg";
+// import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 
 function Introduction() {
   return (
@@ -13,19 +14,28 @@ function Introduction() {
           Passionate React developer with 3 years of experience building dynamic
           and responsive web applications.
         </p>
-        <p><label>Name:</label><span>Siddavatam Veeraprathap Reddy</span></p>
-        <p><label>Phone:</label><span>9182505146</span></p>
-        <p><label>Email:</label><span>prathapsiddavatam@gmail.com</span></p>
+        <p>
+          <span class="material-icons">person</span>
+          <label>Name:</label>
+          <span>Siddavatam Veeraprathap Reddy</span>
+        </p>
+        <p>
+        <span class="material-icons">call</span>
+          <label>Phone:</label>
+          <span>9182505146</span>
+        </p>
+        <p>
+        <span class="material-icons">mail</span>
+          <label>Email:</label>
+          <span>prathapsiddavatam@gmail.com</span>
+        </p>
         <h3>My Interests</h3>
         <article className="introduction-article">
-            <ul>
-                <li>Travel</li>
-                <li>Coding</li>
-                <li>Movies</li>
-            </ul>
+        <span class="material-icons">travel_explore</span>Travel
+        <span class="material-icons">code</span>Coding
+        <span class="material-icons">movie</span>Movies
         </article>
       </section>
-
     </main>
   );
 }

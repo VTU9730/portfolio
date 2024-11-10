@@ -17,32 +17,32 @@ function Skills(){
         <section className="skills-section">
                 <img src={html} />
                 <h3>HTML</h3>
-                <p>Skeleton of webpage</p>
+                <p>HTML is the skeleton of the web—without it, the internet would be all style, no substance."</p>
             </section>
             <section className="skills-section">
                 <img src={css} />
                 <h3>CSS</h3>
-                <p>Skeleton of webpage</p>
+                <p>CSS takes the skeleton of HTML and adds the skin, muscles, and fashion.</p>
             </section>
             <section className="skills-section">
                 <img src={js} />
                 <h3>Javascript</h3>
-                <p>Skeleton of webpage</p>
+                <p>JavaScript is the engine under the hood of your website—without it, it’s just a car that can’t move.</p>
             </section>
             <section className="skills-section">
                 <img src={react} />
                 <h3>React</h3>
-                <p>Skeleton of webpage</p>
+                <p>React is like a magician, making UI changes appear instantly with minimal effort.</p>
             </section>
             <section className="skills-section">
                 <img src={git} />
                 <h3>Git</h3>
-                <p>Skeleton of webpage</p>
+                <p>Git is the version control system that lets you go back in time without a time machine.</p>
             </section>
             <section className="skills-section">
                 <img src={github} />
                 <h3>Github</h3>
-                <p>Skeleton of webpage</p>
+                <p>GitHub is the social network for developers, where code becomes the currency of collaboration</p>
             </section>
         </div>
         </main>

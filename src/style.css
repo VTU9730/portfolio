@@ -117,6 +117,14 @@
   display: block;
 }
 
+.introduction span{
+  vertical-align: middle;
+  padding-right: 10px;                                    
+}
+span{
+  
+}
+
 .introduction p{
   width:40ch;
 }
@@ -130,6 +138,11 @@
     padding-right:10px;
 }
 
+.introduction-article span{
+  margin-left: 20px;
+  
+}
+
 /* Qualification */
 
 .qualification{
@@ -139,7 +152,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
-  line-height: 2rem;
+  line-height: 3rem;
 }
 
 .qualification-section{
@@ -147,16 +160,22 @@
   justify-content: space-around;
   text-align:left;
   margin-top: 30px;
+  line-height: 2rem;
 }
 
 .qualification-article{
   margin: 15px 0;
 }
 
+.qualification-article span{
+  vertical-align: sub;
+  margin-right: 10px;
+}
+
 .qualification-div{
   margin: 20px 0;
   border-left: solid 3px grey;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 
 /* Skills */
@@ -182,19 +201,24 @@
 .skills-section{
   border: solid 1px grey;
   width:200px;
-  padding:30px 50px 50px 10px;
+  padding:40px 10px;
   border-top-right-radius: 40px;
   position: relative;
   text-align: left;
   line-height: 3rem;
   line-height: 1.5rem;
+  margin-top: 60px;
+}
+
+.skills-section h3{
+  text-align: center;
 }
 
 .skills-section img{
   width:40px;
   height:40px;
   position: absolute;
-  left:50px;
+  left:75px;
   top:-20px;
   border: solid 1px grey;
   object-fit: cover;
@@ -204,4 +228,26 @@
 
 .h3{
   color: rgb(20, 216, 151);
+}
+
+/* media querries */
+
+@media screen and (max-width:910px){
+  .nav{
+    display: none;
+  }
+}
+
+p:hover{
+  color:red;
+}
+
+h1:hover{
+  color:red;
+}
+h2:hover{
+  color:red;
+}
+h3:hover{
+  color:red;
 }
