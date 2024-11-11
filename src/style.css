@@ -15,6 +15,17 @@
   list-style: none;
 }
 
+.nav a{
+  text-decoration: none;
+}
+
+.nav ul li:hover{
+  border-bottom:solid 1px grey ;
+  border-top:solid 1px grey ;
+  background-color: rgba(231, 230, 228, 0.404);
+  color:grey;
+}
+
 .nav-ul li {
   padding: 0 50px;
   white-space: nowrap;
@@ -63,10 +74,17 @@
 
 
 .home-mypic img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   display: block;
+}
+
+.home img:hover{
+  border-right:solid 5px rgb(44, 223, 53);
+  border-top:solid 5px rgb(44, 223, 53);
+  border-left:solid 5px rgb(205, 216, 205);
+  border-bottom:solid 5px rgb(205, 216, 205);
 }
 
 .home-button {
@@ -110,8 +128,8 @@
 }
 
 .introduction img{
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   display: block;
 }
@@ -123,6 +141,11 @@
 
 .introduction p{
   width:40ch;
+}
+
+.introduction img:hover{
+  border-left:solid 5px rgb(24, 22, 22);
+  border-bottom:solid 5px rgb(24, 22, 22);
 }
 
 .introduction-article{

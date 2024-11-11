@@ -1,11 +1,11 @@
-import mypic from "./images/mypic.jpeg";
+import mypic2 from "./images/mypic2.jpeg";
 // import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 
 function Introduction() {
   return (
     <main id="introduction" className="introduction">
       <section>
-        <img src={mypic} width="960" height="1280" />
+        <img src={mypic2} width="960" height="1280" />
       </section>
       <section>
         <h3 className="h3">My Intro</h3>
