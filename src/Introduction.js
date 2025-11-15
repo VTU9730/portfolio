@@ -11,7 +11,7 @@ function Introduction() {
         <h3 className="h3">My Intro</h3>
         <h1>About Me</h1>
         <p>
-          Passionate React developer with 3 years of experience building dynamic
+          Passionate React developer with 4 years of experience building dynamic
           and responsive web applications.
         </p>
         <p>
@@ -33,7 +33,7 @@ function Introduction() {
         <article className="introduction-article">
         <span class="material-icons">travel_explore</span>Travel
         <span class="material-icons">code</span>Coding
-        <span class="material-icons">movie</span>Movies
+        <span class="material-icons">movie</span>Browsing
         </article>
       </section>
     </main>

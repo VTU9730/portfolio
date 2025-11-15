@@ -27,9 +27,14 @@ function Qualification(){
                 <article className="qualification-article">
                     <h3><span class="material-icons">work</span>Experience</h3>
                     <div className="qualification-div">
+                        <h4>Deloitte</h4>
+                        <p>Consultant</p>
+                        <p>Apri 2025 - Present</p>
+                    </div>
+                    <div className="qualification-div">
                         <h4>Infosys</h4>
                         <p>Senior system engineer</p>
-                        <p>May 2022 - Present</p>
+                        <p>May 2022 - March 2025</p>
                     </div>
                     <div className="qualification-div">
                         <h4>Infosys</h4>
