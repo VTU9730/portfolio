@@ -10,7 +10,7 @@ function Home() {
         Bringing interactive web experiences to life with React and modern web technologies.
         </p>
         
-        <button className="home-button home-button-cv"><a href="https://drive.google.com/file/d/1W4n1JFuIfEaUMqmcUWe2T3r6B87xATrb/view?usp=drive_link" target='__blank'>Download CV</a></button>
+        <button className="home-button home-button-cv"><a href="https://drive.google.com/file/d/1MtiTKtRJlDUA3o2_l-lOvtyBvRQuxWeb/view?usp=drive_link" target='__blank'>Download CV</a></button>
         <button className="home-button home-button-me">Contact Me</button>
       </section>
       <section className="home-mypic">
